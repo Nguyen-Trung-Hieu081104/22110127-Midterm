@@ -30,8 +30,6 @@ jobs:
         pyinstaller image_helper.spec
 
     - name: Upload executable to release
-      uses: softprops/action-gh-release@v1
-      with:
-        files: ./dist/image_helper.exe
+      run: gh release upload ${{ github.event.release.tag_name }} ./dist/image_helper.exe
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
