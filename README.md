@@ -21,8 +21,8 @@ This is a GUI application for digital image processing built with Python, Tkinte
 - No additional software installation required (standalone executable)
 
 ## Download and Installation
-1. Locate the `image_helper.exe` file in the `dist/` folder of the project.
-2. Copy or move the `image_helper.exe` file to a convenient location on your computer (e.g., Desktop or a dedicated folder).
+1. Locate the `image_helper.exe` file in the release tab on the right hand side of your Github monitor.
+2. Copy, make a short cut or move the `image_helper.exe` file to a convenient location on your computer (e.g., Desktop or a dedicated folder).
 3. No installation is needed; the executable is ready to run.
 
 ## Usage
